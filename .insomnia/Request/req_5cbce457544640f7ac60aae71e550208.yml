@@ -1,0 +1,29 @@
+_id: req_5cbce457544640f7ac60aae71e550208
+type: Request
+parentId: fld_4171e8a455ca4dd0b53e7a542255e760
+modified: 1672101544453
+created: 1672101480354
+url: "{{ _[8092] }}/user"
+name: user_add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"name": "kingston",
+    		"balance": 999000
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672100988104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
