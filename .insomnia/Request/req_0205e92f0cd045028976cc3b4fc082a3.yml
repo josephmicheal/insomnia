@@ -1,25 +1,25 @@
-_id: req_5cbce457544640f7ac60aae71e550208
+_id: req_0205e92f0cd045028976cc3b4fc082a3
 type: Request
 parentId: fld_13de3f93571547c09f308196472a9dcb
-modified: 1672583835227
-created: 1672101480354
-url: "{{ _[8092] }}/user"
-name: user_add
+modified: 1672583814453
+created: 1672104759795
+url: "{{ _[8092] }}/user/transaction"
+name: user_transactions_byuserid
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     	{
-    		"name": "kingston",
-    		"balance": 999000
+    		"userId":3,
+    		"amount": 100
     	}
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1672100988091.5
+metaSortKey: -1672100988191.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

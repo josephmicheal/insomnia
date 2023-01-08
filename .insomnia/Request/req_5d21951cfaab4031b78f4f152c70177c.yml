@@ -1,17 +1,17 @@
-_id: req_4441fe33ab6d4d9e92edd6b9316789c6
+_id: req_5d21951cfaab4031b78f4f152c70177c
 type: Request
-parentId: fld_13de3f93571547c09f308196472a9dcb
-modified: 1672583825716
-created: 1672100988154
-url: "{{ _[8092] }}/user/all"
-name: user_get_all
+parentId: fld_c8d362c626db4011820d3c769c1fb39f
+modified: 1672586805199
+created: 1672586716372
+url: localhost:8091/product/all
+name: all
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672100988166.5
+metaSortKey: -1672586716372
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

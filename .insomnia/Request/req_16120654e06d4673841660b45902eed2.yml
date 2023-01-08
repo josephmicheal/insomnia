@@ -1,25 +1,33 @@
-_id: req_5cbce457544640f7ac60aae71e550208
+_id: req_16120654e06d4673841660b45902eed2
 type: Request
 parentId: fld_13de3f93571547c09f308196472a9dcb
-modified: 1672583835227
-created: 1672101480354
-url: "{{ _[8092] }}/user"
-name: user_add
+modified: 1672583843373
+created: 1672103835912
+url: "{{ _[8092] }}/user/5"
+name: user_update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     	{
     		"name": "kingston",
-    		"balance": 999000
+    		"balance": 889000
     	}
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - id: pair_9e087f9e53d94362844e31b51b861c2b
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_7b6e9cba17ca4012968f2ad9b71cd719
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1672100988091.5
+metaSortKey: -1672100988041.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

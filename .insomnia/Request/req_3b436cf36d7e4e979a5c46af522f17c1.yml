@@ -1,17 +1,17 @@
-_id: req_4441fe33ab6d4d9e92edd6b9316789c6
+_id: req_3b436cf36d7e4e979a5c46af522f17c1
 type: Request
 parentId: fld_13de3f93571547c09f308196472a9dcb
-modified: 1672583825716
-created: 1672100988154
-url: "{{ _[8092] }}/user/all"
-name: user_get_all
+modified: 1672583810454
+created: 1672104705621
+url: "{{ _[8092] }}/user/transactions/userid/3"
+name: user_transactions_byuserid
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672100988166.5
+metaSortKey: -1672100988241.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
